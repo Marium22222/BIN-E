@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+       
+        #im1 {
+            width: 10%;
+            height: 10%;
+            margin-left: 10%;
+
+        }
+
+        #navbar {
+            margin-top: -1%;
+            width: 100%;
+            height: 15%;
+            position: fixed;
+            background-color: white;
+            font-family: Bebas Neue, cursive;
+            z-index: 2;
+        }
+
+        #navbar a {
+            text-decoration: none;
+            color: gray;
+            font-size: 140%;
+            padding: 6%;
+            letter-spacing: 1px;
+        }
+
+        #anc {
+            margin-left: 65%;
+            margin-top: -5%;
+        }
+
+        #unia {
+            margin-top: -3%;
+            margin-left: 90%;
+        }
+
+        .videodiv {
+            width: 100%;
+        }
+
+        #vidhead h1 {
+            color: white;
+            font-size: 850%;
+            letter-spacing: 4px;
+            font-weight: bold;
+        }
+
+        #vidhead {
+            margin-top: -55%;
+            margin-left: 12%;
+            font-family: Bebas Neue, cursive;
+        }
+
+        #but {
+            background-color: #7ebd4a;
+            border: none;
+            width: 21%;
+            padding: 1.5%;
+            color: white;
+            font-size: 140%;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-family: Bebas Neue, cursive;
+        }
+
+        #butt {
+            margin-top: -2%;
+            margin-left: 12%;
+        }
+
+
+        .container {
+            margin-top: 10%;
+
+
+        }
+
+        #details {
+            width: 40%;
+            padding-left: 8%;
+
+
+
+
+        }
+
+        #heading {
+            font-size: 350%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: gray;
+            line-height: 1;
+            border-left: 4px solid #7ebd4a;
+            padding-left: 10%;
+
+
+        }
+
+        #para {
+            word-wrap: break-word;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 170%;
+            color: rgb(86, 84, 84);
+            line-height: 1.6;
+        }
+
+        #picture {
+            width: 50%;
+            margin-left: 50%;
+            margin-top: -47%;
+            object-fit: cover;
+        }
+
+        #picture1 img {
+            height: 400px;
+            width: 1350px;
+            object-fit: cover;
+            margin-top: 10%;
+
+
+        }
+
+        #heading2 {
+            font-size: 400%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: gray;
+            line-height: 1;
+            padding-left: 10%;
+
+        }
+
+        #boxes {
+            margin-left: 3%;
+            display: flex;
+            width: 95%;
+            height: 470px;
+            background-color:  rgb(242, 242, 242);
+ 
+
+
+
+        }
+        #cover{
+       
+            background-color:  rgb(242, 242, 242);
+        }
+
+        .box {
+            margin: 1%;
+            width: 370px;
+            height: 420px;
+            background-color: white;
+            transition: all 1s ease-in-out 1s;
+            margin-top: 0.5%;
+            box-shadow: 3px 2px 4px gray;
+
+        }
+
+        .box h1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #7ebd4a;
+            font-size: 200%;
+            text-align: center;
+        }
+
+        .box p {
+            margin-top: -2%;
+            color: gray;
+            font-size: 139%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 2%;
+
+
+        }
+
+        .box img {
+            margin-left: 35%;
+            margin-top: 7%;
+
+        }
+
+        #prob {
+            margin-top: 10%;
+        }
+
+        .fotb {
+            width: 1%;
+            height: 34px;
+            margin-top: 10%;
+            position: absolute;
+
+        }
+
+        #btndiv1 {
+            position: absolute;
+            margin-top: 20%;
+
+        }
+
+        #btndiv2 {
+            margin-left: 95%;
+            position: absolute;
+            margin-top: 20%;
+
+        }
+
+        #heading3 {
+            font-size: 350%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: gray;
+            line-height: 1;
+            padding-left: 10%;
+            margin-top: 12%;
+
+        }
+
+        #imgg1 {
+            margin-left: 9%;
+        }
+
+        #para3 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 150%;
+            color: rgb(86, 84, 84);
+            line-height: 1.6;
+            text-align: center;
+            margin-left: 10%;
+            width: 82%;
+
+
+
+        }
+
+        .mob {
+            margin-left: 10%;
+            width: 20%;
+        }
+
+        #head3 {
+            font-size: 350%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: gray;
+            line-height: 1;
+            padding-left: 10%;
+            margin-top: 12%;
+            margin-left: 9%;
+        }
+
+        #item {
+            display: flex;
+            padding-left: 10%;
+
+        }
+
+        #itemm {
+            display: flex;
+            margin-left: 8%;
+            padding-left: 10%;
+            margin-top: -5%;
+        }
+
+        .head4 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: gray;
+
+        }
+
+        .it {
+            margin: 3%;
+            text-align: center;
+        }
+
+        #item-4 {
+            padding-top: 5%;
+            padding-left: -1%;
+        }
+        #item-2{
+            padding-right: 3%;
+        }
+
+        #item-5 {
+
+            padding-left: 16%;
+        }
+
+        #item-6 {
+            padding-left: 11%;
+        }
+
+        #newphoto img {
+            height: 400px;
+            width: 1350px;
+            object-fit: cover;
+            margin-top: 10%;
+        }
+        #newphoto1 img {
+            height: 400px;
+            width: 1350px;
+            object-fit: cover;
+            margin-top: 10%;
+        }
+
+        #heading4 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: gray;
+            font-size: 310%;
+            text-align: center;
+            margin-top: 10%;
+
+        }
+
+        #para4 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 150%;
+            color: rgb(86, 84, 84);
+            line-height: 1.6;
+            text-align: center;
+            margin-left: 20%;
+            width: 65%;
+        }
+
+        #main img {
+            padding-left: 12%;
+            padding-top: 10%;
+
+        }
+
+        #main {
+            width: 85%;
+            margin-left: 7%;
+        }
+
+        .bot {
+            margin-left: 6%;
+        }
+
+        #nextdiv {
+            width: 100%;
+            height: 200%;
+            margin-top: 10%;
+        }
+
+        #part2 {
+            width: 60%;
+            height: 500px;
+            border: 2px solid rgb(225, 239, 225);
+            background-color: rgb(225, 239, 225);
+            margin-left: 30%;
+            padding-left: 10%;
+
+        }
+
+        #heading5 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #7ebd4a;
+            font-size: 310%;
+            text-align: center;
+            margin-top: 10%;
+
+        }
+
+        #para5 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 150%;
+            color: rgb(86, 84, 84);
+            line-height: 1.6;
+            margin-left: 20%;
+            width: 65%;
+
+        }
+
+        #but2 {
+            margin-left: 20%;
+            background-color: #7ebd4a;
+            border: none;
+            width: 21%;
+            padding: 1.5%;
+            color: white;
+            font-size: 140%;
+            letter-spacing: 2px;
+            font-weight: bold;
+
+
+            
+
+        }
+        button a{
+            text-decoration: none;
+            color: white;
+
+        }
+
+        #part1 {
+            margin-left: 10%;
+            position: absolute;
+            margin-top: 5%;
+        }
+
+        #big img {
+            height: 400px;
+            width: 1350px;
+            object-fit: cover;
+            margin-top: 10%;
+        }
+
+        #heading6 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: gray;
+            font-size: 360%;
+            margin-left: 10%;
+            margin-top: 10%;
+        }
+
+        #change1 {
+
+            margin-left: 10%;
+            width: 40%;
+        }
+
+        #change2 {
+            border: 2px solid rgb(231, 228, 228);
+            width: 43%;
+            background-color: rgb(231, 228, 228);
+            margin-left: 46%;
+            margin-top: -44%;
+            height: 580px;
+            /* border-top: 5px solid gray; */
+
+
+        }
+
+        #head6 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: gray;
+            font-size: 290%;
+            margin-left: 20%;
+            margin-top: 10%;
+
+        }
+
+        #para6 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 150%;
+            color: rgb(86, 84, 84);
+            line-height: 1.3;
+            margin-left: 20%;
+            width: 65%;
+
+        }
+
+        #line {
+            position: absolute;
+            margin-top: -45%;
+            margin-left: 45%;
+            border: 2px solid gray;
+            width: 43%;
+        }
+
+        #change3 {
+            background-color: #d7ebc8;
+            width: 40%;
+            margin-left: 10%;
+            height: 550px;
+            border: 2px solid #d7ebc8;
+            margin-top: 3%;
+
+        }
+
+        #change4 {
+            width: 40%;
+            margin-left: 52%;
+            margin-top: -44%;
+
+        }
+
+        #head7 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #7ebd4a;
+            font-size: 290%;
+            margin-left: 20%;
+            margin-top: 10%;
+
+        }
+
+        #para7 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 150%;
+            color: rgb(86, 84, 84);
+            line-height: 1.3;
+            margin-left: 20%;
+            width: 65%;
+
+        }
+
+        #line1 {
+            margin-top: 2%;
+            border: 2px solid #7ebd4a;
+            ;
+            width: 40%;
+            margin-left: 10%;
+
+        }
+
+        #imag-1 img {
+            margin-left: 10%;
+            width: 35%;
+
+        }
+
+        #imag-2 img {
+            margin-left: 53%;
+            width: 32%;
+            margin-top: -40%;
+            height: 600px;
+
+        }
+
+        #imag-3 img {
+            margin-left: 10%;
+            width: 35%;
+
+        }
+
+        #imag-4 {
+            margin-top: -18%;
+        }
+
+        #imag-4 img {
+            margin-left: 53%;
+            width: 32%;
+            margin-top: -50%;
+
+
+        }
+
+        #imag-5 img {
+            margin-left: 10%;
+            width: 35%;
+            margin-top: 20%;
+            height: 300px;
+
+        }
+
+        #imag-6 {
+            margin-top: 5%;
+
+        }
+
+        #imag-6 img {
+            margin-left: 53%;
+            width: 32%;
+            margin-top: -50%;
+
+
+
+        }
+
+        #last1 img {
+            margin-left: 10%;
+            width: 45%;
+        }
+
+        #last2 {
+            border: 2px solid white;
+            width: 35%;
+            margin-left: 55%;
+            margin-top: -40%;
+            height: 580px;
+
+
+        }
+
+        #head8 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #7ebd4a;
+            font-size: 200%;
+            margin-left: 20%;
+            margin-top: 10%;
+
+        }
+
+        #para8 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 150%;
+            color: rgb(86, 84, 84);
+            line-height: 1.3;
+            margin-left: 20%;
+            width: 65%;
+
+        }
+
+        #last3 {
+            border: 2px solid white;
+            width: 35%;
+            margin-left: 3%;
+            margin-top: 3%;
+            height: 580px;
+
+        }
+
+        #last4 img {
+            margin-left: 43%;
+            width: 45%;
+            margin-top: -40%;
+        }
+
+        #last4 {
+            margin-top: -6%;
+        }
+        #final{
+            z-index: 1;
+            width: 75%;
+            height: 350px;
+            border: 2px solid #7ebd4a;
+            background-color: #7ebd4a;
+            position: absolute;
+            margin-top: -13%;
+            margin-left: 10%;
+           
+            
+        }
+        #final1{
+            text-align: left;
+            width: 50%;
+            margin-left: 10%;
+
+
+        }
+        #final2{
+            text-align: left;
+            border: 2px solid #7ebd4a;
+            width: 29%;
+            margin-left: 60%;
+            padding-left: 10%;
+            margin-top: -32%;
+            color: white;
+            
+
+        }
+        #lastpara{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 250%;
+            color: rgb(86, 84, 84);
+            color: rgb(235, 244, 252);
+
+        }
+        #lasthead{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 350%;
+            color: rgb(86, 84, 84);
+            color: white;
+
+        }
+        #foter{
+            width: 100%;
+            height: 300px;
+
+            margin-top: 25%;
+        }
+        #foter1{
+            margin-left: 10%;
+            width: 20%;
+            height: 300px;
+   
+        }
+        #foter1 a{
+            color: gray;
+            height: 100px;
+
+        }
+        #foter1 img{
+            width:100px;
+            height:100px;
+            margin-top: 3%;
+            margin-bottom: 0%;
+            text-align: left;
+            margin-left: 10%;
+            
+        }
+        #foter1 h4{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #7ebd4a;
+        }
+        #foter2{
+            font-size: 100%;
+             color: gray;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 20%;
+            height: 300px;
+
+            margin-left: 35%;
+            margin-top: -22%;
+        }
+        #foter2 a{
+            text-decoration: none;
+            color: gray;
+            
+        }
+        #foter3{
+            width: 20%;
+            height: 300px;
+
+            margin-left: 75%;
+            margin-top: -22%;
+        }
+        #footer{
+            color: gray;
+            margin-top: 10%;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        #aa{
+            margin-left: -6%;
+        }
+        .slick-next:before,.slick-prev:before {
+    font-family: slick;
+    font-size: 25px;
+    line-height: 1;
+    opacity: .75;
+    color: gray;
+    background-color:  #ece7e7;
+    -webkit-font-smoothing: antialiased;
+        }
+      
+        
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <nav>
+           <img src="logo.svg" alt="" id="im1">
+            <div id="anc">
+                <a href="#prob">HOW IT WORKS</a>
+                <a href="#newphoto1">CONTACT</a>
+            </div>
+        
+            <!-- <a id="aa" href="https://www.bine.world/assets/pdf/info_dofinansowanie_ue.pdf" target="_blank"><img src="unia.png" alt="" id="unia"></a> -->
+           <img src="unia.png" alt="" id="unia">
+        </nav>
+
+    </div>
+
+
+    <div id="vid">
+        <video class="videodiv" autoplay muted loop playsinline>
+            <source src="bine video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="vidhead">
+        <h1>SMART <br> WASTE <br>BIN</h1>
+    </div>
+    <div id="butt">
+        <button id="but"><a href="#details">FIND OUT MORE</a></button>
+    </div>
+
+
+    <div class="container">
+        <div id="details">
+            <p id="heading">REVOLUTIONIZING <br> THE <br> <b> WASTE <br> MANAGEMENT <br> SYSTEM</b></p>
+            <p id="para">Bin-e is an AI-based smart waste bin, designed for public places, enabling them to simplify
+                recycling. It sorts and compresses the waste automatically, controls the fill level and processes data
+                for convenient waste management.</p>
+        </div>
+        <div id="picture">
+            <img src="img1.png" alt="">
+        </div>
+    </div>
+
+    <div id="picture1">
+        <img src="img2.png" alt="">
+    </div>
+
+
+    <div id="prob">
+        <p id="heading2"> <B> LET'S SORT OUT </B> <BR>
+            YOUR WASTE PROBLEM</p>
+
+<div id="cover">
+        <div id="boxes" class="slider">
+            <div class="box" id="box1">
+                <img src="bottle.png" alt="">
+                <h1>AI-BASED RECOGNITION</h1>
+                <p> Just throw the waste inside! Bin-e will use an AI-based recognition system to identify it, reaching
+                    a world leading accuracy of over 92%. </p>
+            </div>
+            <div class="box" id="box2">
+                <img src="compression.png" alt="">
+                <h1>PLASTIC COMPRESSION</h1>
+                <p> Plastic and paper get compressed to decrease the volume and lower the frequency of bin emptying.
+                </p>
+            </div>
+            <div class="box" id="box3">
+                <img src="fill.png" alt="">
+                <h1>FILL LEVEL CONTROL</h1>
+                <p> Fill level sensors check whether the bin needs to be emptied. You will get an alert of your phone
+                    when the bins are full. </p>
+            </div>
+
+            <div class="box" id="box4">
+                <img src="realdata.png" alt="">
+                <h1>REAL-TIME DATA MANAGEMENT</h1>
+                <p> All the data Bin-e collects is transferred and processed on a cloud in real-time.</p>
+            </div>
+            <div class="box" id="box5">
+                <img src="stats.png" alt="">
+                <h1>APPS FOR STATS AND REPORTS</h1>
+                <p> Our app provides you detailed statistics about the waste you collected, data for optimizing waste
+                    collection and the technical status your devices. </p>
+            </div>
+            <div class="box" id="box6">
+                <img src="compression.png" alt="">
+                <h1>COLLECT POINTS AND AVAIL DISCOUNTS</h1>
+                <p> Plastic and paper get compressed to decrease the volume and lower the frequency of bin emptying.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+    <div id="laptop">
+        <p id="heading3">GET DETAILED INSIGHTS ON YOUR <br><b> SUSTAINABILITY PERFORMANCE </b>
+        </p>
+
+        <img src="laptop.png" alt="" id="imgg1">
+        <p id="para3">Our app provides information about the fill-level of your Bin-e devices and notifies you when they
+            need to be emptied. It also gives you detailed statistics and reports about waste production, taking CSR
+            reporting to a whole new level.</p>
+
+
+        <p id="head3">ALSO AVAILABLE ON MOBILE APP</p>
+        <img src="mobileApp1.webp" alt="" class="mob">
+        <img src="mobileApp2.webp" alt="" class="mob">
+        <img src="mobileApp3.webp" alt="" class="mob">
+    </div>
+
+
+    <div id="item">
+        <div id="item-1" class="it">
+            <img src="item1.png" alt="">
+            <h1 class="head4">WASTE PRODUCTION STATS</h1>
+        </div>
+        <div id="item-2" class="it">
+            <img src="item2.png" alt="">
+            <h1 class="head4">EXPORTABLE CSR REPORTS</h1>
+        </div>
+        <div id="item-3" class="it">
+            <img src="item3.png" alt="">
+            <h1 class="head4">FILL LEVEL ALERTS</h1>
+        </div>
+    </div>
+    <div id="itemm" class="it">
+        <div id="item-4">
+            <img src="item4.png" alt="">
+            <h1 class="head4">MAINTENANCE INFO</h1>
+        </div>
+        <div id="item-5" class="it">
+            <img src="item5.png" alt="">
+            <h1 class="head4">LOGISTICS OPTIMIZATION</h1>
+        </div>
+        <div id="item-6" class="it">
+            <img src="item6.png" alt="">
+            <h1 class="head4">CONTENT MANAGEMENT</h1>
+        </div>
+    </div>
+
+    <div id="newphoto">
+        <img src="newphoto.png" alt="">
+
+    </div>
+
+    <div id="company">
+        <h1 id="heading4">WORLD'S GREENEST COMPANIES USE BIN-E</h1>
+        <p id="para4">Our global network of customers spans from Europe, through Asia up to Australia. Our goal is to
+            help business all around the world to boost their recycling performance and enable easy and transparent CSR
+            reporting.</p>
+
+    </div>
+
+    <div id="main">
+        <img src="pic1.png" alt="">
+        <img src="pic2.png" alt="">
+        <img src="pic3.png" alt="">
+        <img src="pic4.png" alt="">
+        <img src="pic5.png" alt="">
+        <img src="pic6.png" alt="">
+        <img src="pic7.png" alt="">
+        <img src="pic8.png" alt="">
+        <img src="pic9.png" alt="" class="bot">
+        <img src="pic10.png" alt="" class="bot">
+        <img src="pic11.png" alt="" class="bot">
+    </div>
+
+
+
+    <div id="nextdiv">
+        <div id="part1">
+            <img src="nextpic.png" alt="">
+        </div>
+
+        <div id="part2">
+            <h1 id="heading5">GET YOUR QUOTE TODAY</h1>
+            <p id="para5">Leave us a message and we’ll get back to you with the details as soon as possible.</p>
+            <button id="but2"><a href="#newphoto1">Contact us</a></button>
+
+        </div>
+    </div>
+
+
+    <div id="big">
+        <img src="bari.png" alt="">
+    </div>
+
+
+
+    <div id="game">
+        <p id="heading6">A GAMECHANGER TO <br> <b> PACKAGING RECYCLING </b></p>
+    </div>
+
+
+    <div id="changer">
+        <div id="change1">
+            <img src="phot.png" alt="">
+        </div>
+        <div id="line">
+
+        </div>
+        <div id="change2">
+            <h1 id="head6">WITHOUT BIN-E</h1>
+            <p id="para6">Lack of knowledge about proper waste sorting and recycling <br><br>
+
+                High costs of waste management and disposal <br><br>
+
+                No incentives for proper waste disposal <br><br>
+
+                Lack of digitization of waste management services</p>
+        </div>
+
+
+
+        <div id="change3">
+            <h1 id="head7">WITH BIN-E</h1>
+            <p id="para7">High waste sorting accuracy <br> <br>
+
+                Lower costs of waste management and disposal <br> <br>
+
+                Incentives for proper waste disposal <br> <br>
+
+                Digitization of waste management services <br> <br>
+
+                Real-time data, reports & analytics</p>
+        </div>
+
+        <div id="line1">
+
+        </div>
+
+
+        <div id="change4">
+            <img src="bin.png" alt="">
+        </div>
+    </div>
+
+
+    <!-- again -->
+
+    <div id="game">
+        <p id="heading6">WORLD'S SMARTEST <br> <b> E-WASTE SOLUTION </b></p>
+    </div>
+
+
+    <div id="changer">
+        <div id="change1">
+            <img src="mob1.png" alt="">
+        </div>
+        <div id="line">
+
+        </div>
+        <div id="change2">
+            <h1 id="head6">WITHOUT BIN-E</h1>
+            <p id="para6">Low recycling rate & lack of resources on Earth <br> <br>
+
+                Lack of effective gratification systems, new caution rules <br> <br>
+
+                Inefficient waste collection system <br> <br>
+
+                Non-compliance with standards by manufacturers and incurring additional fees</p>
+        </div>
+
+
+
+        <div id="change3">
+            <h1 id="head7">WITH BIN-E</h1>
+            <p id="para7">Higher recycling rate <br> <br>
+
+                Circular use of resources <br> <br>
+
+                Effective systems for gratification <br> <br>
+
+                Accumulation of benefit points by users <br> <br>
+
+                Customized & interactive user communications</p>
+        </div>
+
+        <div id="line1">
+
+        </div>
+
+
+        <div id="change4">
+            <img src="mob2.png" alt="">
+        </div>
+    </div>
+
+
+
+
+    <div id="game">
+        <p id="heading6"> <b> THE BEST RECYCLING SOLUTION</b> <br> FOR PUBLIC PLACES </p>
+    </div>
+
+
+
+
+    <div id="imag-1"><img src="imag1.png" alt="">
+    </div>
+    <div id="imag-2"><img src="imag2.png" alt=""></div>
+    <div id="imag-3"><img src="imag3.png" alt=""></div>
+    <div id="imag-4"><img src="imag4.png" alt=""></div>
+    <div id="imag-5"><img src="imag5.png" alt=""></div>
+    <div id="imag-6"><img src="imag6.png" alt=""></div>
+
+
+
+
+    <div id="game">
+        <p id="heading6"> <b> CHOOSE THE PERFECT SOLUTION</b> <br> FOR YOUR NEEDS </p>
+    </div>
+
+
+    <div id="last1">
+        <img src="photo1.png" alt="">
+    </div>
+    <div id="last2">
+        <h1 id="head8">BECOME A CSR AND GREEN TECHNOLOGY LEADER</h1>
+        <p id="para8">The 50” screen allows you to display your own content, creating a valuable marketing opportunity.
+            Promote your company’s sustainability initiatives or display external advertising content. Everything can be
+            easily managed in the Bin-e app, with just two clicks</p>
+    </div>
+
+    <div id="last3">
+        <h1 id="head8">BOOST YOUR RECYCLING PERFORMANCE</h1>
+        <p id="para8">If you don’t need advanced marketing features, the standard version still offers groundbreaking
+            features like AI-based waste recognition, automatic sorting, compression and fill-level control. It will
+            increase your recycling efficiency and turn waste management into a data-driven process.</p>
+    </div>
+    <div id="last4">
+        <img src="photo2.png" alt="">
+    </div>
+
+    <div id="newphoto1">
+        <img src="binephot.png" alt="">
+
+    </div>
+
+
+    <div id="final">
+        <div id="final1">
+            <h1 id="lasthead">LETS TALK ABOUT <br> YOUR RECYCLING <br> GOALS </h1>
+            <p id="lastpara">contact@bine.world</p>
+        </div>
+        <div id="final2">
+            <h3>Headquarters</h3>
+            <p>Pasjonatów 9 <br>
+                62-069 Dąbrowa <br>
+                Poland</p>
+        </div>
+
+    </div>
+
+
+
+    <div id="foter">
+        <div id="foter1">
+            <img src="logo.svg" alt="">
+            <h4>REVOLUTIONIZING THE WASTE <br> MANAGEMENT SYSTEM</h4>
+                <a href="https://www.facebook.com/SMARTCITYLAB.NCAI/?_rdc=1&_rdr" target="_blank"><i class="bi-facebook"></i></a>&nbsp;
+                <a href="https://www.linkedin.com/company/smart-city-lab-ncai-ned-uet/" target="_blank"><i class="bi-linkedin"></i></a>&nbsp;
+                <a href="https://www.instagram.com/smartcitylab.ncai/" target="_blank"><i class="bi-instagram"></i></a>&nbsp;
+                <a href="https://twitter.com/smartcitylabned/" target="_blank"><i class="bi-twitter"></i></a>&nbsp;
+        </div>
+        <div id="foter2">
+            <h4>Menu</h4>
+            <a href="#prob">How it works</a> <br> <br>
+            <a href="#newphoto1">Contact</a>
+        </div>
+        <div id="foter3">
+            <img src="inno.png" alt="">
+        </div>
+     
+    </div>
+
+   <div id="footer">
+    <hr>
+        <p>© 2022 Bine sp. z o. o. All rights reserved</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script>
+
+$('.slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
+
+
+});
+    
+    </script>
+</body>
+
+</html>
